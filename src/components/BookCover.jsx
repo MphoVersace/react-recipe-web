@@ -1,7 +1,10 @@
+import React from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import Page from './Page';
 import Cover from './bookPages/Cover/Cover';
 import coverVideo from "../assets/Videos/coverVideo2.mp4";
+import RecipeListPage from './RecipeListPage';
+import RecipeDetailPage from './RecipeDetailPage';
 
 function BookCover(props) {
     return (
@@ -16,16 +19,16 @@ function BookCover(props) {
           <div className="demoPage text-white text-3xl">Page 3</div>
           </Page>
           <Page number={4}>
-          <div className="demoPage text-white text-3xl">Page 4</div>
+          <RecipeListPage />
           </Page>     
           <Page number={5}>
-          <div className="demoPage text-white text-3xl">Page 5</div>
+          <RecipeListPage />
           </Page>   
           <Page number={6}>
-          <div className="demoPage text-white text-3xl">Page 6</div>
+          <RecipeDetailPage id={1} />
           </Page>     
           <Page number={7}>
-          <div className="demoPage text-white text-3xl">Page 7</div>
+          <RecipeDetailPage id={2} />
           </Page>  
           <Page number={8}>
           <div className="demoPage text-white text-3xl">Page 8</div>

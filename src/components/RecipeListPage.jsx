@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Page from './Page';
 
 const RecipeListPage = () => {
   const recipes = [

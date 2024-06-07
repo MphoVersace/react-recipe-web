@@ -16,17 +16,17 @@ const BgTextureStyle = {
 
 const App = () => {
   return (
+    <BrowserRouter>
     <div style={BgTextureStyle} className="w-full h-full flex justify-center items-center">
-      <div className="relative z-10 w-full h-full flex justify-center items-center">
-        <BrowserRouter>
+      <div className="relative z-10 w-full h-full flex justify-center items-center">   
           <Routes>
             <Route path="/" element={<RecipeListPage />} />
             <Route path="/recipes/:id" element={<RecipeDetailPage />} />
-          </Routes>
-        </BrowserRouter>
-        <BookCover />
-      </div>
+          </Routes>  
+          <BookCover />  
+      </div>     
     </div>
+    </BrowserRouter>
   );
 };
 
