@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Page from './Page';
+
 
 const RecipeDetailPage = () => {
   const { id } = useParams();
@@ -9,7 +9,7 @@ const RecipeDetailPage = () => {
     {
       id: 1,
       name: "Cheesy Sweet Potato & Black Bean Casserole",
-      description: "This is a salad",
+      description: "salad",
       image: "https://via.placeholder.com/150" // Replace with actual image URL
     },
     {
