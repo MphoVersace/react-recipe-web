@@ -6,7 +6,7 @@ const RecipeListPage = () => {
     {
       id: 1,
       name: "Cheesy Sweet Potato & Black Bean Casserole",
-      description: "This is a salad",
+      description: "A cozy, cheesy casserole is classic comfort food.",
     },
     { id: 2, name: "Cake", description: "This is about a cake" },
     { id: 3, name: "Pasta", description: "This is a Pasta " },

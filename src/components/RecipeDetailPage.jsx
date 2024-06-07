@@ -8,8 +8,8 @@ const RecipeDetailPage = () => {
     {
       id: 1,
       name: "Cheesy Sweet Potato & Black Bean Casserole",
-      description: "This is a salad",
-      image: "https://via.placeholder.com/150" // Replace with actual image URL
+      description: "A cozy, cheesy casserole is classic comfort food.",
+      image: "src/assets/img1.png" // Replace with actual image URL
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const RecipeDetailPage = () => {
       id: 3, 
       name: "Pasta", 
       description: "This is a Pasta", 
-      image: "https://via.placeholder.com/150" // Replace with actual image URL
+      image: "src/assets/img1.png" // Replace with actual image URL
     },
     { 
       id: 4, 
