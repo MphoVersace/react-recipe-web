@@ -5,6 +5,7 @@ import Cover from './bookPages/Cover/Cover';
 import coverVideo from "../assets/Videos/coverVideo2.mp4";
 import RecipeListPage from './RecipeListPage';
 import RecipeDetailPage from './RecipeDetailPage';
+import FirstPage from './bookPages/LandingPage/FirstPage';
 
 function BookCover(props) {
     return (
@@ -13,10 +14,10 @@ function BookCover(props) {
           <Cover coverVideo={coverVideo}  />
           </Page>
           <Page number={2}>
-          <div className="demoPage text-white text-3xl">Page 2</div>
+          <FirstPage />
           </Page>
           <Page number={3}>
-          <div className="demoPage text-white text-3xl">Page 3</div>
+          
           </Page>
           <Page number={4}>
           <RecipeListPage />

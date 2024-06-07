@@ -14,4 +14,9 @@
   .primary-btn {
     @apply;
   }
+
+  .page-shadow {
+    @apply shadow-[inset_0_0_8px_rgba(12,20,14,0.9)];
+  }
 }
+
