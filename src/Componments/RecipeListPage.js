@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Page from './Page';
 
 const RecipeListPage = () => {
   const recipes = [
     {
       id: 1,
-      name: "Cabbage salad",
+      name: "Cheesy Sweet Potato & Black Bean Casserole",
       description: "This is a salad",
     },
     { id: 2, name: "Cake", description: "This is about a cake" },
