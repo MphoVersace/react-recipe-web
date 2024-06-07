@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import RecipeListPage from './RecipeListPage';
-import RecipeDetailPage from './RecipeDetailPage';
+import RecipeListPage from './Componments/RecipeListPage';
+import RecipeDetailPage from './Componments/RecipeDetailPage';
 
 const App = () => {
   return (
@@ -15,5 +15,3 @@ const App = () => {
 };
 
 export default App;
-
-
