@@ -16,8 +16,14 @@ const RecipeDetailPage = () => {
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo ante nec est molestie, sedeleifend nisi tincidunt. Integer condimentum lacus nec velit fringilla, ut lobortis velit vestibulum.  ",
     },
-    { id: 3, name: "Pasta", description: "This is a Pasta " },
-    { id: 4, name: "Sides", description: "This is a sides " },
+    { id: 3, 
+      name: "Pasta", 
+      description: "This is a Pasta " 
+    },
+    { id: 4, 
+      name: "Sides", 
+      description: "This is a sides " 
+    },
   ];
 
   const recipe = recipes.find((recipe) => recipe.id === parseInt(id));
