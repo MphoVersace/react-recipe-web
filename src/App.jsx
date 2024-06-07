@@ -1,9 +1,9 @@
-import React from "react";
-// import Navbar from "./components/Navbar";
-import BookCover from "./components/BookCover";
-import BgTexture from "./assets/moso9.jpg";
-
-console.log(BgTexture);
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import RecipeListPage from './components/RecipeListPage';
+import RecipeDetailPage from './components/RecipeDetailPage';
+import BookCover from './components/BookCover';
+import BgTexture from "../src/assets/moso9.jpg";
 
 const BgTextureStyle = {
   backgroundImage: `url(${BgTexture})`,
@@ -16,9 +16,17 @@ const BgTextureStyle = {
 
 const App = () => {
   return (
-  <div style={BgTextureStyle} className="w-full h-full flex justify-center items-center">
-    <BookCover/>
-  </div>
+    <div style={BgTextureStyle} className="w-full h-full flex justify-center items-center">
+      <div className="relative z-10 w-full h-full flex justify-center items-center">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<RecipeListPage />} />
+            <Route path="/recipes/:id" element={<RecipeDetailPage />} />
+          </Routes>
+        </BrowserRouter>
+        <BookCover />
+      </div>
+    </div>
   );
 };
 
