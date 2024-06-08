@@ -30,6 +30,18 @@ const RecipeDetailPage = () => {
       description: "With 3 layers of chocolate cake smothered in fluffy chocolate buttercream frosting, these are the perfect special occasion dessert.", 
       image: "src/assets/Mini-chocolate-cakes_2.webp" 
     },
+    { 
+      id: 5, 
+      name: "Vanilla Cupcakes", 
+      description: "Soft and fluffy, with a plush velvety crumb .", 
+      image: "src/assets/Vanilla-Cupcakes-with-Vanilla-Swiss-Meringue-2 (1).webp" 
+    },
+    { 
+      id: 6, 
+      name: "Strawberry Ice Cream", 
+      description: " A no churn Strawberry Ice Cream that’s incredibly creamy, no ice crystals and perfectly scoopable .", 
+      image: "src/assets/Strawberry-Ice-Cream-No-Churn_3b.webp" 
+    },
   ];
 
   const recipe = recipes.find((recipe) => recipe.id === parseInt(id));

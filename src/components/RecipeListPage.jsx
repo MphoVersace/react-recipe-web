@@ -12,7 +12,12 @@ const RecipeListPage = () => {
     { id: 3, name: "Cheesy Chicken & Broccoli Alfredo Skillet Casserole", 
       description: "This delightful one-skillet cheesy chicken Alfredo casserole combines penne pasta, tender broccoli and shredded rotisserie chicken smothered in a creamy sauce."
      },
-    { id: 4, name: "Sides", description: "This is a sides " },
+    { id: 4, name: "Mini chocolate cakes",
+      description: "With 3 layers of chocolate cake smothered in fluffy chocolate buttercream frosting, these are the perfect special occasion dessert. "
+      },
+      { id: 5, name: "Vanilla Cupcakes",
+        description: "Soft and fluffy, with a plush velvety crumb "
+        },
   ];
 
   return (

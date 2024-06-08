@@ -13,6 +13,7 @@ function BookCover(props) {
           <Cover coverVideo={coverVideo}  />
           </Page>
           <Page number={2}>
+           < first page/>
           <div className="demoPage text-white text-3xl">Page 2</div>
           </Page>
           <Page number={3}>
