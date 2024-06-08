@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const RecipeListPage = () => {
   const recipes = [
@@ -26,7 +25,7 @@ const RecipeListPage = () => {
       <ul>
         {recipes.map((recipe) => (
           <li key={recipe.id}>
-            <Link to={`/recipes/${recipe.id}`}>{recipe.name}</Link>
+            <p>{recipe.name}</p>
             <p>{recipe.description}</p>
           </li>
         ))}
