@@ -7,7 +7,7 @@ const Cover = ({ coverVideo, title }) => {
         <source src={coverVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className='absolute top-0 left-0 right-0 bottom-0 flex justify-center items-start p-8'>
+      <div className='absolute top-0 left-0 right-0 bottom-0 flex justify-center items-start p-8 page-shadow'>
         <h1 className='text-fourthColor text-6xl text-gradient font-bold'>{title}</h1>
       </div>
     </div>

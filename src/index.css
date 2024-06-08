@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,7 +16,8 @@
 
 @layer components {
   .primary-btn {
-    @apply;
+    @apply inline-block bg-fourthColor text-white cursor-pointer
+    hover:bg-fourthColor/80 py-2 px-4 my-3 rounded-lg;
   }
 
   .page-shadow {

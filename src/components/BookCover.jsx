@@ -6,6 +6,7 @@ import coverVideo from "../assets/Videos/coverVideo2.mp4";
 import RecipeListPage from './RecipeListPage';
 import RecipeDetailPage from './RecipeDetailPage';
 import FirstPage from './bookPages/LandingPage/FirstPage';
+import SecondPage from './bookPages/LandingPage/SecondPage';
 
 function BookCover(props) {
     return (
@@ -14,14 +15,18 @@ function BookCover(props) {
           <Cover coverVideo={coverVideo}  />
           </Page>
           <Page number={2}>
+          <div className='relative h-screen'>
           <FirstPage />
-          </Page>
-          <Page number={3}>
-          
-          </Page>
-          <Page number={4}>
-          <RecipeListPage />
-          </Page>     
+        </div>
+      </Page>
+      <Page number={3}>
+      <div className='relative h-screen'>
+          <SecondPage />
+        </div>
+      </Page>
+      <Page number={4}>
+
+      </Page>    
           <Page number={5}>
           <RecipeListPage />
           </Page>   
