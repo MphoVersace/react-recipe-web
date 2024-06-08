@@ -9,7 +9,9 @@ const RecipeListPage = () => {
       description: "A cozy, cheesy casserole is classic comfort food.",
     },
     { id: 2, name: "Shrimp Pad Thai", description: "This iconic Thai recipe features rice noodles stir-fried in a wok with a sauce that strikes the perfect balance of tangy, salty and sweet." },
-    { id: 3, name: "Pasta", description: "This is a Pasta " },
+    { id: 3, name: "Cheesy Chicken & Broccoli Alfredo Skillet Casserole", 
+      description: "This delightful one-skillet cheesy chicken Alfredo casserole combines penne pasta, tender broccoli and shredded rotisserie chicken smothered in a creamy sauce."
+     },
     { id: 4, name: "Sides", description: "This is a sides " },
   ];
 

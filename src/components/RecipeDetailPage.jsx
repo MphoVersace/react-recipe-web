@@ -9,26 +9,26 @@ const RecipeDetailPage = () => {
       id: 1,
       name: "Cheesy Sweet Potato & Black Bean Casserole",
       description: "A cozy, cheesy casserole is classic comfort food.",
-      image: "src/assets/img1.png" // Replace with actual image URL
+      image: "src/assets/img1.png" 
       
     },
     {
       id: 2,
       name: "Shrimp Pad Thai",
       description: "This iconic Thai recipe features rice noodles stir-fried in a wok with a sauce that strikes the perfect balance of tangy, salty and sweet",
-      image: "src/assets/Videos/img2.webp" // Replace with actual image URL
+      image: "src/assets/Videos/img2.webp" 
     },
     { 
       id: 3, 
       name: "Cheesy Chicken & Broccoli Alfredo Skillet Casserole", 
       description: "This delightful one-skillet cheesy chicken Alfredo casserole combines penne pasta, tender broccoli and shredded rotisserie chicken smothered in a creamy sauce. ", 
-      image: "src/assets/img3.webp" // Replace with actual image URL
+      image: "src/assets/img3.webp" 
     },
     { 
       id: 4, 
-      name: "Sides", 
-      description: "This is a sides", 
-      image: "https://via.placeholder.com/150" // Replace with actual image URL
+      name: "Mini chocolate cakes", 
+      description: "With 3 layers of chocolate cake smothered in fluffy chocolate buttercream frosting, these are the perfect special occasion dessert.", 
+      image: "src/assets/Mini-chocolate-cakes_2.webp" 
     },
   ];
 
