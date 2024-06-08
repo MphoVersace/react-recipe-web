@@ -5,8 +5,8 @@ import Cover from './bookPages/Cover/Cover';
 import coverVideo from "../assets/Videos/coverVideo2.mp4";
 import RecipeListPage from './RecipeListPage';
 import RecipeDetailPage from './RecipeDetailPage';
-import FirstPage from './bookPages/LandingPage/FirstPage';
-import SecondPage from './bookPages/LandingPage/SecondPage';
+import FirstPage from './bookPages/RecipeListPages/FirstPage';
+import SecondPage from './bookPages/RecipeListPages/SecondPage';
 
 function BookCover(props) {
     return (
