@@ -10,18 +10,19 @@ const RecipeDetailPage = () => {
       name: "Cheesy Sweet Potato & Black Bean Casserole",
       description: "A cozy, cheesy casserole is classic comfort food.",
       image: "src/assets/img1.png" // Replace with actual image URL
+      
     },
     {
       id: 2,
-      name: "Cake",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo ante nec est molestie, sedeleifend nisi tincidunt. Integer condimentum lacus nec velit fringilla, ut lobortis velit vestibulum.",
-      image: "https://via.placeholder.com/150" // Replace with actual image URL
+      name: "Shrimp Pad Thai",
+      description: "This iconic Thai recipe features rice noodles stir-fried in a wok with a sauce that strikes the perfect balance of tangy, salty and sweet",
+      image: "src/assets/Videos/img2.webp" // Replace with actual image URL
     },
     { 
       id: 3, 
-      name: "Pasta", 
-      description: "This is a Pasta", 
-      image: "src/assets/img1.png" // Replace with actual image URL
+      name: "Cheesy Chicken & Broccoli Alfredo Skillet Casserole", 
+      description: "This delightful one-skillet cheesy chicken Alfredo casserole combines penne pasta, tender broccoli and shredded rotisserie chicken smothered in a creamy sauce. ", 
+      image: "src/assets/img3.webp" // Replace with actual image URL
     },
     { 
       id: 4, 

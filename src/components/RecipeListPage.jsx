@@ -8,7 +8,7 @@ const RecipeListPage = () => {
       name: "Cheesy Sweet Potato & Black Bean Casserole",
       description: "A cozy, cheesy casserole is classic comfort food.",
     },
-    { id: 2, name: "Cake", description: "This is about a cake" },
+    { id: 2, name: "Shrimp Pad Thai", description: "This iconic Thai recipe features rice noodles stir-fried in a wok with a sauce that strikes the perfect balance of tangy, salty and sweet." },
     { id: 3, name: "Pasta", description: "This is a Pasta " },
     { id: 4, name: "Sides", description: "This is a sides " },
   ];
