@@ -4,6 +4,7 @@
     align-items: center;
     padding: 20px;
     font-style: italic;
+    background-color: beige;
   }
   
   .recipe-content {
@@ -11,12 +12,15 @@
     margin: 0 auto;
     text-align: left;
     font-style: italic;
+    background-color: beige;
+  
   }
   
   .recipe-content h1,
   .recipe-content h2 {
     margin: 10px 0;
     font-style: italic;
+    background-color: beige;
   }
   
   .recipe-image {
@@ -25,6 +29,7 @@
     width: 150px; 
     height: auto;
     font-style: italic;
+    background-color: beige;
   }
   
   .recipe-content ul {
@@ -32,16 +37,21 @@
     padding: 0;
     margin: 20px 0;
     font-style: italic;
+    background-color: beige;
   }
   
   .recipe-content ul li {
     margin: 5px 0;
     font-style: italic;
+    background-color: beige;
   }
   
   .recipe-content p {
     margin: 20px 0;
     max-width: 800px;
     font-style: italic;
+    background-color: beige;
   }
-  
+  .body{
+    background-color: beige;
+    }
