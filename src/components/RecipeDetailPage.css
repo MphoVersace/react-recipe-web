@@ -1,0 +1,40 @@
+.recipe-detail-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .recipe-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .recipe-content h1,
+  .recipe-content h2 {
+    margin: 10px 0;
+  }
+  
+  .recipe-image {
+    float: left;
+    margin-right: 20px;
+    width: 150px; /* Set the desired width for the image */
+    height: auto;
+  }
+  
+  .recipe-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .recipe-content ul li {
+    margin: 5px 0;
+  }
+  
+  .recipe-content p {
+    margin: 20px 0;
+    max-width: 800px;
+  }
+  

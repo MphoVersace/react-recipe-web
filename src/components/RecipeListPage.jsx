@@ -17,6 +17,9 @@ const RecipeListPage = () => {
       { id: 5, name: "Vanilla Cupcakes",
         description: "Soft and fluffy, with a plush velvety crumb "
         },
+        { id: 5, name: "Strawberry Ice-Cream",
+          description: "Soft and fluffy, with a plush velvety crumb "
+          },
   ];
 
   return (
