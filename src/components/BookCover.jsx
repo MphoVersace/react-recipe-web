@@ -5,6 +5,8 @@ import Cover from './bookPages/Cover/Cover';
 import coverVideo from "../assets/Videos/coverVideo2.mp4";
 import RecipeListPage from './RecipeListPage';
 import RecipeDetailPage from './RecipeDetailPage';
+import FirstPage from './bookPages/RecipeListPages/FirstPage';
+import SecondPage from './bookPages/RecipeListPages/SecondPage';
 
 // Import images
 import img1 from '../assets/img1.png';
@@ -54,21 +56,29 @@ const recipes = [
 ];
 
 function BookCover(props) {
-    return (
-        <HTMLFlipBook width={600} height={800} showCover={true}>
-            <Page number={1}>
-                <Cover coverVideo={coverVideo} />
-            </Page>
-            <Page number={2}>
-                <RecipeListPage recipes={recipes} />
-            </Page>
-            {recipes.map((recipe, index) => (
-                <Page number={index + 3} key={recipe.id}>
-                    <RecipeDetailPage recipe={recipe} />
-                </Page>
-            ))}
-        </HTMLFlipBook>
-    );
+  return (
+      <HTMLFlipBook width={600} height={700} showCover="true">
+        <Page number={1}>
+        <Cover coverVideo={coverVideo}  />
+        </Page>
+        <Page number={2}>
+        <FirstPage />
+        </Page>
+        <Page number={3}>
+        <SecondPage />
+        </Page>
+        <Page number={4}>
+        <RecipeListPage recipes={recipes} />
+        </Page>    
+        {recipes.map((recipe, index) => (
+              <Page number={index + 5} key={recipe.id}>
+                  <RecipeDetailPage recipe={recipe} />
+              </Page>
+          ))} 
+        <Page number={11}></Page>     
+      </HTMLFlipBook>
+  );
 } 
+
 
 export default BookCover;
