@@ -8,7 +8,7 @@ import RecipeDetailPage from './RecipeDetailPage';
 
 // Import images
 import img1 from '../assets/img1.png';
-import img2 from '../assets/img1.png';
+import img2 from '../assets/EWL-shrimp-pad-thai-step-05-1190-87e6eec4f9ec48f288489d7f06ea01fc.webp';
 import img3 from '../assets/img3.webp';
 import img4 from '../assets/Mini-chocolate-cakes_2.webp';
 import img5 from '../assets/Vanilla-Cupcakes-with-Vanilla-Swiss-Meringue-2 (1).webp';
