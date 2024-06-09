@@ -2,7 +2,7 @@ import React from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import Page from './Page';
 import Cover from './bookPages/Cover/Cover';
-import coverVideo from "../assets/Videos/coverVideo2.mp4";
+import coverVideo from "../assets/Videos/coverVideo.mp4";
 import RecipeListPage from './RecipeListPage';
 import RecipeDetailPage from './RecipeDetailPage';
 import FirstPage from './bookPages/RecipeListPages/FirstPage';
@@ -59,7 +59,7 @@ function BookCover(props) {
   return (
       <HTMLFlipBook width={600} height={700} showCover="true">
         <Page number={1}>
-        <Cover coverVideo={coverVideo}  />
+        <Cover coverVideo={coverVideo} title="Foodie Favourites"  />
         </Page>
         <Page number={2}>
         <FirstPage />

@@ -37,10 +37,10 @@ const SecondPage = () => {
           </div>
         </div>
 
-        <div className='absolute h-[15rem] ml-[0.5rem] flex flex-col items-center justify-center'>
-      <p className='text-6xl md:text-9xl font-devonshire text-fourthColor/100'>Side</p>
-      <div className='absolute top-[11rem] left-[-0.5rem] max-w-[18rem] rounded overflow-hidden shadow-lg'>
-        <img src={landingImgThree} alt="Landing Page" className='w-52 h-90 object-cover rounded-tr-[20rem] rounded-br-[20rem]' />
+        <div className='absolute h-[17rem] flex flex-col items-center justify-center'>
+      <p className='text-6xl md:text-9xl ml-[2.5rem] font-devonshire text-secondary/100 text-stroke text-shadow-sm'>Side</p>
+      <div className='absolute top-[16rem] left-[-0.5rem] w-[11rem] overflow-hidden rounded'>
+        <img src={landingImgThree} alt="Landing Page" className='w-full h-full object-cover rounded-tr-[20rem] rounded-br-[20rem]' />
       </div>
     </div>
       </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 import BookCover from './components/BookCover';
-import BgTexture from "../src/assets/moso9.jpg";
+import BgTexture from "../src/assets/background4.jpeg";
 
 
 const BgTextureStyle = {
