@@ -1,4 +1,5 @@
 import React from "react";
+import "./RecipeListPage.css";
 
 const RecipeListPage = () => {
   const recipes = [
@@ -17,13 +18,13 @@ const RecipeListPage = () => {
       { id: 5, name: "Vanilla Cupcakes",
         description: "Soft and fluffy, with a plush velvety crumb "
         },
-        { id: 5, name: "Strawberry Ice-Cream",
+        { id: 6, name: "Strawberry Ice-Cream",
           description: "Soft and fluffy, with a plush velvety crumb "
           },
   ];
 
   return (
-    <div>
+    <div className="recipe-list">
       <h1>Recipe List</h1>
       <ul>
         {recipes.map((recipe) => (
