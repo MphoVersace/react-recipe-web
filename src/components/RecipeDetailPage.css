@@ -3,17 +3,20 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    font-style: italic;
   }
   
   .recipe-content {
     max-width: 800px;
     margin: 0 auto;
     text-align: left;
+    font-style: italic;
   }
   
   .recipe-content h1,
   .recipe-content h2 {
     margin: 10px 0;
+    font-style: italic;
   }
   
   .recipe-image {
@@ -21,21 +24,25 @@
     margin-right: 20px;
     width: 150px; /* Set the desired width for the image */
     height: auto;
+    font-style: italic;
   }
   
   .recipe-content ul {
     list-style-type: none;
     padding: 0;
     margin: 20px 0;
+    font-style: italic;
   }
   
   .recipe-content ul li {
     margin: 5px 0;
+    font-style: italic;
   }
   
   .recipe-content p {
     margin: 20px 0;
     max-width: 800px;
+    font-style: italic;
   }
 
   
