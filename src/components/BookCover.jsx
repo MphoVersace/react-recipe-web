@@ -7,6 +7,7 @@ import RecipeListPage from './RecipeListPage';
 import RecipeDetailPage from './RecipeDetailPage';
 import FirstPage from './bookPages/RecipeListPages/FirstPage';
 import SecondPage from './bookPages/RecipeListPages/SecondPage';
+import AboutPage from './bookPages/AboutPage';
 
 // Import images
 import img1 from '../assets/img1.png';
@@ -69,9 +70,12 @@ function BookCover(props) {
         </Page>
         <Page number={4}>
         <RecipeListPage recipes={recipes} />
-        </Page>    
+        </Page> 
+        <Page number={5}>
+        <AboutPage />
+        </Page>   
         {recipes.map((recipe, index) => (
-              <Page number={index + 5} key={recipe.id}>
+              <Page number={index + 6} key={recipe.id}>
                   <RecipeDetailPage recipe={recipe} />
               </Page>
           ))} 

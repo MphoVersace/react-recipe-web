@@ -3,44 +3,43 @@
 /* RecipeListPage.css */
 
 .recipe-list {
-   font-style: italic;
-    padding: 20px;
-  }
-  
-  .recipe-list h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .recipe-list ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .recipe-list li {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .recipe-list li:hover {
-    background-color: #f1f1f1;
-  }
-  
-  .recipe-list p {
-    margin: 0;
-    font-size: 1em;
-    color: #555;
-  }
-  
-  .recipe-list p:first-child {
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    color: #222;
-  }
-  
+  font-style: italic;
+   padding: 20px;
+ }
+ 
+ .recipe-list h1 {
+   font-size: 2em;
+   margin-bottom: 20px;
+   color: #333;
+ }
+
+ .grid-container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+ }
+ 
+ .grid-item {
+   background-color: #f9f9f9;
+   border: 1px solid #ddd;
+   padding: 15px;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+ }
+ 
+ .grid-item:hover {
+   background-color: #f1f1f1;
+ }
+ 
+ .grid-item p {
+   margin: 0;
+   font-size: 1em;
+   color: #555;
+ }
+ 
+ .grid-item p:first-child {
+   font-weight: bold;
+   font-size: 1.2em;
+   margin-bottom: 5px;
+   color: #222;
+ }

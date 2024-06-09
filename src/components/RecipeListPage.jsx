@@ -26,14 +26,14 @@ const RecipeListPage = () => {
   return (
     <div className="recipe-list">
       <h1>Recipe List</h1>
-      <ul>
+      <div className="grid-container">
         {recipes.map((recipe) => (
-          <li key={recipe.id}>
+          <div key={recipe.id} className="grid-item">
             <p>{recipe.name}</p>
             <p>{recipe.description}</p>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
