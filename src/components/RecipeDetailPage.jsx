@@ -58,23 +58,21 @@ Heat olive oil in a skillet over medium heat. Add sweet potatoes and cook, stirr
               <li>1 lime, cut into wedges</li>
               <li>For the sauce:</li>
               <ul>
-                <li>3 tablespoons fish sauce</li>
-                <li>3 tablespoons soy sauce</li>
-                <li>3 tablespoons tamarind paste</li>
-                <li>2 tablespoons brown sugar</li>
+                <li>3 tablespoons fish sauce,3 tablespoons soy sauce</li>
+                <li>3 tablespoons tamarind paste,2 tablespoons brown sugar</li>
                 <li>1 tablespoon rice vinegar</li>
               </ul>
             </ul>
 
             <h2>Directions</h2>
             <p>
-              1. Cook the rice noodles according to the package instructions. Drain and set aside.<br />
-              2. In a small bowl, whisk together the fish sauce, soy sauce, tamarind paste, brown sugar, and rice vinegar. Set aside.<br />
-              3. Heat 1 tablespoon of vegetable oil in a large skillet or wok over medium-high heat. Add the shrimp and cook until pink and opaque, about 2-3 minutes per side. Remove from the skillet and set aside.<br />
-              4. Add the remaining 1 tablespoon of vegetable oil to the skillet. Add the garlic and cook until fragrant, about 30 seconds.<br />
-              5. Push the garlic to the side of the skillet and add the beaten eggs. Scramble the eggs until fully cooked, then combine with the garlic.<br />
-              6. Add the cooked noodles, sauce mixture, cooked shrimp, bean sprouts, and green onions to the skillet. Toss everything together until well combined and heated through.<br />
-              7. Serve the Pad Thai topped with chopped peanuts, fresh cilantro, and lime wedges on the side.<br />
+            1.Cook rice noodles per package instructions. Drain. <br />
+2.Whisk fish sauce, soy sauce, tamarind paste, brown sugar, and rice vinegar. Set aside. <br />
+3.Heat oil in skillet. Cook shrimp until pink (2-3 mins/side). Remove. <br />
+4.Add remaining oil to skillet. Cook garlic until fragrant (30 secs). <br />
+5.Push garlic aside. Add beaten eggs. Scramble with garlic. <br />
+6.Combine noodles, sauce, shrimp, sprouts, onions in skillet. Heat through. <br />
+7.Serve Pad Thai with peanuts, cilantro, lime wedges. <br />
             </p>
           </div>
         )}
@@ -91,28 +89,24 @@ Heat olive oil in a skillet over medium heat. Add sweet potatoes and cook, stirr
               <li>1/2 cup lower-sodium chicken broth</li>
               <li>3/4 cup reduced-fat cream cheese (6 ounces), cubed</li>
               <li>1/2 cup whole milk</li>
-              <li>2 teaspoons Italian seasoning</li>
-              <li>1/2 teaspoon onion powder</li>
-              <li>1/2 teaspoon garlic powder</li>
-              <li>1/2 teaspoon ground pepper</li>
-              <li>1/4 teaspoon salt</li>
-              <li>1 1/2 cups shredded Italian cheese blend, divided</li>
-              <li>3 cups shredded rotisserie chicken</li>
-              <li>2 tablespoons grated Parmesan cheese</li>
+              <li>2 teaspoons Italian seasoning,1/2 teaspoon onion powder</li>
+              <li>1/2 teaspoon garlic powder,1/2 teaspoon ground pepper</li>
+              <li>1/4 teaspoon salt,1 1/2 cups shredded Italian cheese blend, divided</li>
+              <li>3 cups shredded rotisserie chicken,2 tablespoons grated Parmesan cheese</li>
               <li>1 tablespoon chopped fresh flat-leaf parsley</li>
             </ul>
 
             <h2>Directions</h2>
             <p>
-              1. Preheat your oven to 350°F (175°C).<br />
-              2. Cook the penne according to package directions. Drain and set aside.<br />
-              3. In a large oven-safe skillet, melt the butter over medium heat. Add the onion and garlic and cook until softened, about 3 minutes.<br />
-              4. Add the broccoli and chicken broth to the skillet. Cook until the broccoli is tender, about 5 minutes.<br />
-              5. Stir in the cream cheese, milk, Italian seasoning, onion powder, garlic powder, pepper, and salt. Cook, stirring frequently, until the cream cheese is melted and the mixture is well combined.<br />
-              6. Stir in 1 cup of the shredded Italian cheese blend and the cooked penne. Mix until the pasta is evenly coated.<br />
-              7. Top with the remaining shredded Italian cheese blend and the Parmesan cheese.<br />
-              8. Transfer the skillet to the preheated oven and bake until the cheese is melted and bubbly, about 15-20 minutes.<br />
-              9. Garnish with chopped fresh parsley before serving.<br />
+            1. Preheat oven to 350°F (175°C). <br />
+2. Cook penne per package directions. Drain. <br />
+3. Melt butter in skillet. Cook onion and garlic until softened (3 mins). <br />
+4. Add broccoli and chicken broth. Cook until tender (5 mins). <br />
+5. Stir in cream cheese, milk, seasonings. Cook until melted. <br />
+6. Mix in 1 cup shredded Italian cheese and cooked penne. <br />
+7. Top with remaining shredded cheese and Parmesan. <br />
+8. Bake until cheese is melted (15-20 mins). <br />
+9. Garnish with parsley before serving. <br />
             </p>
           </div>
         )}
@@ -130,25 +124,23 @@ Heat olive oil in a skillet over medium heat. Add sweet potatoes and cook, stirr
               <li>1 teaspoon red chili powder</li>
               <li>2 teaspoons garam masala</li>
               <li>1 pound chicken breast, cut into cubes</li>
-              <li>1/2 cup plain yogurt</li>
-              <li>1/2 cup chopped fresh cilantro</li>
+              <li>1/2 cup plain yogurt,1/2 cup chopped fresh cilantro</li>
               <li>1/2 cup chopped fresh mint</li>
               <li>1 teaspoon saffron threads, soaked in 2 tablespoons warm milk</li>
-              <li>Salt to taste</li>
-              <li>Fried onions and boiled eggs for garnish (optional)</li>
+              <li>Salt to taste,Fried onions and boiled eggs for garnish (optional)</li>
             </ul>
 
             <h2>Directions</h2>
             <p>
-              1. Wash and soak the basmati rice in water for 30 minutes. Drain and set aside.<br />
-              2. Heat ghee in a large pot over medium heat. Add the onions and cook until golden brown. Remove half of the onions and set aside for garnish.<br />
-              3. Add ginger-garlic paste to the pot and sauté for a minute.<br />
-              4. Add turmeric powder, red chili powder, and garam masala. Sauté for another minute.<br />
-              5. Add the chicken cubes and cook until they are no longer pink.<br />
-              6. Stir in the yogurt, cilantro, and mint. Cook for a few more minutes.<br />
-              7. Add the rice and water. Season with salt. Bring to a boil, then reduce the heat to low, cover, and cook for 15-20 minutes, or until the rice is cooked and water is absorbed.<br />
-              8. Drizzle the saffron milk over the rice and gently fluff the rice with a fork.<br />
-              9. Garnish with fried onions and boiled eggs if desired.<br />
+            1. Soak basmati rice in water for 30 mins. Drain. <br />
+2. Heat ghee in pot. Cook onions until golden. Set half aside. <br />
+3. Sauté ginger-garlic paste for 1 min. <br />\
+4. Add turmeric, chili powder, and garam masala. Sauté for 1 min. <br />
+5. Cook chicken until no longer pink. <br />
+6. Stir in yogurt, cilantro, and mint. Cook a few more mins. <br />
+7. Add rice, water, and salt. Bring to boil, then simmer covered for 15-20 mins. <br />
+8. Drizzle saffron milk over rice. Fluff with fork. <br />
+9. Garnish with fried onions and boiled eggs, if desired. <br />
             </p>
           </div>
         )}
