@@ -57,7 +57,7 @@ const recipes = [
 
 function BookCover(props) {
   return (
-      <HTMLFlipBook width={600} height={800} showCover="true">
+      <HTMLFlipBook width={700} height={800} showCover="true">
         <Page number={1}>
         <Cover coverVideo={coverVideo} title="Foodie Favourites"  />
         </Page>
