@@ -1,39 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./RecipeListPage.css";
 
-const RecipeListPage = () => {
-  const recipes = [
+const RecipeListPage = ({ recipes }) => {
+  const [defaultRecipes] = useState([
     {
       id: 1,
       name: "Cheesy Sweet Potato & Black Bean Casserole",
       description: "A cozy, cheesy casserole is classic comfort food.",
     },
-    { id: 2, name: "Shrimp Pad Thai", description: "This iconic Thai recipe features rice noodles stir-fried in a wok with a sauce that strikes the perfect balance of tangy, salty and sweet." },
-    { id: 3, name: "Cheesy Chicken & Broccoli Alfredo Skillet Casserole", 
+    {
+      id: 2,
+      name: "Shrimp Pad Thai",
+      description: "This iconic Thai recipe features rice noodles stir-fried in a wok with a sauce that strikes the perfect balance of tangy, salty and sweet."
+    },
+    {
+      id: 3,
+      name: "Cheesy Chicken & Broccoli Alfredo Skillet Casserole",
       description: "This delightful one-skillet cheesy chicken Alfredo casserole combines penne pasta, tender broccoli and shredded rotisserie chicken smothered in a creamy sauce."
-     },
-    { id: 4, name: "Mini chocolate cakes",
-      description: "With 3 layers of chocolate cake smothered in fluffy chocolate buttercream frosting, these are the perfect special occasion dessert. "
-      },
-      { id: 5, name: "Vanilla Cupcakes",
-        description: "Soft and fluffy, with a plush velvety crumb "
-        },
-        { id: 6, name: "Strawberry Ice-Cream",
-          description: "Soft and fluffy, with a plush velvety crumb "
-          },
-  ];
+    },
+    {
+      id: 4,
+      name: "Mini chocolate cakes",
+      description: "With 3 layers of chocolate cake smothered in fluffy chocolate buttercream frosting, these are the perfect special occasion dessert."
+    },
+    {
+      id: 5,
+      name: "Vanilla Cupcakes",
+      description: "Soft and fluffy, with a plush velvety crumb."
+    },
+    {
+      id: 6,
+      name: "Strawberry Ice-Cream",
+      description: "Soft and fluffy, with a plush velvety crumb."
+    },
+  ]);
+
+  const finalRecipes = recipes.length ? recipes : defaultRecipes;
 
   return (
-    <div className="recipe-list">
+    <div id="recipeListPage" className="recipe-list">
       <h1>Recipe List</h1>
-      <ul>
-        {recipes.map((recipe) => (
-          <li key={recipe.id}>
-            <p>{recipe.name}</p>
+      <div className="grid-container">
+        {finalRecipes.map((recipe) => (
+          <div key={recipe.id} className="grid-item">
+            <p>{recipe.title || recipe.name}</p>
             <p>{recipe.description}</p>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
