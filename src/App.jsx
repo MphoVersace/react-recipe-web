@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import RecipeListPages from './components/bookPages/RecipeListPages/FirstPage';
 import RecipeDetailPage from "./components/RecipeDetailPage";
 
 import BookCover from './components/BookCover';
@@ -25,7 +24,6 @@ const App = () => {
       <div className="relative z-10 w-full h-full flex justify-center items-center">   
            
       <Routes>
-          <Route path="/" element={<RecipeListPages />} />
           <Route path="/recipe/:id" element={<RecipeDetailPage />} />
           </Routes>
           <BookCover />  
