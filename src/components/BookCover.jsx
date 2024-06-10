@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import Page from './Page';
 import Cover from './bookPages/Cover/Cover';
 import coverVideo from "../assets/Videos/coverVideo.mp4";
 import RecipeListPage from './RecipeListPage';
 import RecipeDetailPage from './RecipeDetailPage';
-import FirstPage from './bookPages/RecipeListPages/FirstPage';
-import SecondPage from './bookPages/RecipeListPages/SecondPage';
+import FirstPage from './bookPages/ListPages/FirstPage';
+import SecondPage from './bookPages/ListPages/SecondPage';
 import AboutPage from './bookPages/AboutPage';
 
 // Import images
@@ -57,32 +57,43 @@ const recipes = [
 ];
 
 function BookCover(props) {
-  return (
-      <HTMLFlipBook width={600} height={700} showCover="true">
-        <Page number={1}>
-        <Cover coverVideo={coverVideo} title="Foodie Favourites"  />
-        </Page>
-        <Page number={2}>
-        <FirstPage />
-        </Page>
-        <Page number={3}>
-        <SecondPage />
-        </Page>
-        <Page number={4}>
-        <RecipeListPage recipes={recipes} />
-        </Page> 
-        <Page number={5}>
-        <AboutPage />
-        </Page>   
-        {recipes.map((recipe, index) => (
-              <Page number={index + 6} key={recipe.id}>
-                  <RecipeDetailPage recipe={recipe} />
-              </Page>
-          ))} 
-        <Page number={11}></Page>     
-      </HTMLFlipBook>
-  );
-} 
+  const [currentPage, setCurrentPage] = useState(0);
 
+  const goToPage = (pageNum) => {
+    setCurrentPage(pageNum);
+  };
+
+  return (
+    <HTMLFlipBook
+      width={600}
+      height={700}
+      showCover={true}
+      currentPage={currentPage}
+      onChangePage={setCurrentPage}
+    >
+      <Page number={1}>
+        <Cover coverVideo={coverVideo} title="Foodie Favourites" />
+      </Page>
+      <Page number={2}>
+        <FirstPage />
+      </Page>
+      <Page number={3}>
+        <SecondPage />
+      </Page>
+      <Page number={4}>
+        <RecipeListPage recipes={recipes} />
+      </Page>
+      <Page number={5}>
+        <AboutPage />
+      </Page>
+      {recipes.map((recipe, index) => (
+        <Page number={index + 6} key={recipe.id}>
+          <RecipeDetailPage recipe={recipe} />
+        </Page>
+      ))}
+      <Page number={11}></Page>
+    </HTMLFlipBook>
+  );
+}
 
 export default BookCover;
