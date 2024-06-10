@@ -5,41 +5,42 @@
 .recipe-list {
   font-style: italic;
    padding: 20px;
-   background-color: beige;
+   background-color: #FFECCE;
  }
  
  .recipe-list h1 {
    font-size: 2em;
-   margin-bottom: 20px;
+   margin-bottom: 0px;
    color: #333;
-   background-color: beige;
+   background-color: #FFECCE;
  }
 
  .grid-container {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    gap: 20px;
-   background-color: beige;
+   background-color: #FFECCE;
  }
  
  .grid-item {
    background-color: #f9f9f9;
-   border: 1px solid #ddd;
+   border: 2px solid #ddd;
    padding: 15px;
    border-radius: 5px;
    transition: background-color 0.3s;
-   background-color: beige;
+   background-color: #FFECCE;
  }
  
  .grid-item:hover {
-   background-color: #f1f1f1;
+   background-color: #ecdcc1;
+   border: 2px solid #b6b4b4;
  }
  
  .grid-item p {
    margin: 0;
    font-size: 1em;
    color: #555;
-   background-color: beige;
+   background-color: #FFECCE;
  }
  
  .grid-item p:first-child {
@@ -47,5 +48,5 @@
    font-size: 1.2em;
    margin-bottom: 5px;
    color: #222;
-   background-color: beige;
+   background-color: #FFECCE;
  }

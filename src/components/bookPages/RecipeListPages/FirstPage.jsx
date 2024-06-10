@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import img1 from '../../../assets/img1.png';
 import img2 from '../../../assets/EWL-shrimp-pad-thai-step-05-1190-87e6eec4f9ec48f288489d7f06ea01fc.webp';
 import img3 from '../../../assets/img3.webp';
@@ -6,15 +7,16 @@ import landingImgTwo from '../../../assets/landingImgTwo.png';
 
 
 const FirstPage = () => {
+  
   return (
     <div className='relative h-full bg-bgColor'>
       <div className='absolute bottom-2 left-8 max-w-[11rem] rounded overflow-hidden shadow-lg'>
         <img src={img1} alt="Healthy Recipe One" className='w-52 h-52 object-cover' />
         <div className='px-4 py-4'>
           <div className='font-bold text-lg mb-2'>Sweet Potato & Bean Casserole</div>
-          <button className='bg-blue-500 hover:bg-blue-700 text-white py-0.5 px-2 rounded'>
+          <Link to='/recipe/1' className='bg-blue-500 hover:bg-blue-700 text-white py-0.5 px-2 rounded'>
           Go To Recipe
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -22,9 +24,9 @@ const FirstPage = () => {
           <img src={img2} alt="Healthy Recipe Two" className='w-52 h-52 object-cover' />
           <div className='px-4 py-4'>
             <div className='font-bold text-lg mb-2'>Shrimp Pad Thai</div>
-            <button className='bg-blue-500 hover:bg-blue-700 text-white py-0.5 px-2 rounded'>
+            <Link to='/recipe/2' className='bg-blue-500 hover:bg-blue-700 text-white py-0.5 px-2 rounded'>
               Go To Recipe
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -32,9 +34,9 @@ const FirstPage = () => {
           <img src={img3} alt="Healthy Recipe Two" className='w-52 h-52 object-cover' />
           <div className='px-4 py-4'>
             <div className='font-bold text-lg mb-2'>Chicken & Broccoli Alfredo Casserole</div>
-            <button className='bg-blue-500 hover:bg-blue-700 text-white py-0.5 px-2 rounded'>
+            <Link to='/recipe/3'className='bg-blue-500 hover:bg-blue-700 text-white py-0.5 px-2 rounded'>
               Go To Recipe
-            </button>
+            </Link>
           </div>
         </div>
 
