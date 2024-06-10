@@ -11,6 +11,9 @@ const SecondPage = () => {
         <img src={img4} alt="Healthy Recipe One" className='w-52 h-52 object-cover' />
         <div className='px-4 py-4'>
           <div className='font-bold text-lg mb-2'>Mini Chocolate Cakes</div>
+          <button className='bg-blue-500 hover:bg-blue-700 text-white py-0.5 px-2 rounded'>
+            Go To Recipe
+          </button>
         </div>
       </div>
 
@@ -18,6 +21,9 @@ const SecondPage = () => {
           <img src={img5} alt="Healthy Recipe Two" className='w-52 h-52 object-cover' />
           <div className='px-4 py-4'>
             <div className='font-bold text-lg mb-2'>Vanilla Cupcakes</div>
+            <button className='bg-blue-500 hover:bg-blue-700 text-white py-0.5 px-2 rounded'>
+              Go To Recipe
+            </button>
           </div>
         </div>
 
@@ -25,6 +31,9 @@ const SecondPage = () => {
           <img src={img6} alt="Healthy Recipe Two" className='w-52 h-52 object-cover' />
           <div className='px-4 py-4'>
             <div className='font-bold text-lg mb-2'>Strawberry Ice Cream</div>
+            <button className='bg-blue-500 hover:bg-blue-700 text-white py-0.5 px-2 rounded'>
+              Go To Recipe
+            </button>
           </div>
         </div>
 

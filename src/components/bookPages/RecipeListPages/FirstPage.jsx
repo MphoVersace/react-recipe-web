@@ -12,6 +12,9 @@ const FirstPage = () => {
         <img src={img1} alt="Healthy Recipe One" className='w-52 h-52 object-cover' />
         <div className='px-4 py-4'>
           <div className='font-bold text-lg mb-2'>Sweet Potato & Bean Casserole</div>
+          <button className='bg-blue-500 hover:bg-blue-700 text-white py-0.5 px-2 rounded'>
+          Go To Recipe
+          </button>
         </div>
       </div>
 
@@ -19,6 +22,9 @@ const FirstPage = () => {
           <img src={img2} alt="Healthy Recipe Two" className='w-52 h-52 object-cover' />
           <div className='px-4 py-4'>
             <div className='font-bold text-lg mb-2'>Shrimp Pad Thai</div>
+            <button className='bg-blue-500 hover:bg-blue-700 text-white py-0.5 px-2 rounded'>
+              Go To Recipe
+            </button>
           </div>
         </div>
 
@@ -26,6 +32,9 @@ const FirstPage = () => {
           <img src={img3} alt="Healthy Recipe Two" className='w-52 h-52 object-cover' />
           <div className='px-4 py-4'>
             <div className='font-bold text-lg mb-2'>Chicken & Broccoli Alfredo Casserole</div>
+            <button className='bg-blue-500 hover:bg-blue-700 text-white py-0.5 px-2 rounded'>
+              Go To Recipe
+            </button>
           </div>
         </div>
 
