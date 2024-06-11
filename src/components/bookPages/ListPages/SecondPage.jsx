@@ -54,7 +54,6 @@ function SecondPage() {
     </div>
     <div className='text-xs md:text-sm pt-[15rem] pl-[12rem] w-[29rem]'>Dessert meals are the sweetest indulgence, a delightful finale to any dining experience. From rich chocolate cakes to light and fluffy pastries, desserts tantalize our taste buds and bring a smile to our faces. We celebrate the art of dessert-making, crafting delectable treats that are both satisfying and soul-soothing</div>
     <div className='text-s md:text-md pt-[15rem] pl-[2rem] w-[17rem]'>Welcome to a world where every dessert is a work of art and every moment is sweetened with a touch of magic</div>
-    <div className='text-xs md:text-sm pt-[1rem] pl-[12rem] w-[17rem]'>Treat yourself to a little slice of heaven, from classic favorites to innovative creations, our desserts are sure to dazzle your taste buds.</div>
 
       </div>
   );
