@@ -58,19 +58,19 @@
 
 .ingredients-container {
   flex: 2; 
-  font-size: 10px;
+  font-size: 12px;
 }
 
   .recipe-content ul {
     list-style-type: none;
     padding: 0;
-    margin: 20px 0;
+    margin: 22px 0;
     font-style: italic;
     background-color: #FFECCE;
   }
   
   .recipe-content ul li {
-    margin: 5px 0;
+    margin: 8px 0;
     font-style: italic;
     background-color: #FFECCE;
   }
@@ -85,28 +85,3 @@
     background-color: #FFECCE;
     }
 
-/* Style for the button container */
-.button-container {
-  margin-right: 50px;
-  margin-top: 0;
-}
-
-/* Style for the button */
-
-.button {
-  --bg: #000;
-  --hover-bg: #ba181b;
-  --hover-text: #000;
-  color: #000000;
-  cursor: pointer;
-  border: 2px solid #ba181b;
-  margin-top: 0.5rem;
-  padding: 0.3em 0.5em;
-  background: #FFECCE;
-  transition: 0.2s; 
-}
-
-.button:hover {
-  color: #fff;
-  background: var(--hover-bg);
-}

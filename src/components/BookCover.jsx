@@ -8,9 +8,11 @@ import RecipeDetailPage from './RecipeDetailPage';
 import AboutPage from './bookPages/AboutPage';
 import FirstPage from './bookPages/ListPages/FirstPage';
 import SecondPage from './bookPages/ListPages/SecondPage';
+import '../index.css';
 
 function BookCover(props) {
     return (
+      <div className="book-container">
         <HTMLFlipBook width={700} height={750} showCover="true">
           <Page number={1}>
           <Cover coverVideo={coverVideo} title="Foodie Favourites" />
@@ -46,6 +48,7 @@ function BookCover(props) {
           <RecipeDetailPage id={6} />
           </Page>
         </HTMLFlipBook>
+        </div>
     );
 } 
 

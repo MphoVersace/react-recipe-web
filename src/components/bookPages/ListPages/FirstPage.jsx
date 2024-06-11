@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Link } from 'react-router-dom';
 import img1 from '../../../assets/img1.png';
 import img2 from '../../../assets/EWL-shrimp-pad-thai-step-05-1190-87e6eec4f9ec48f288489d7f06ea01fc.webp';
@@ -6,7 +6,8 @@ import img3 from '../../../assets/img3.webp';
 import landingImgTwo from '../../../assets/landingImgTwo.png';
 
 
-const FirstPage = () => {
+
+function FirstPage()  {
   
   return (
     <div className='relative h-full bg-bgColor'>
@@ -15,7 +16,7 @@ const FirstPage = () => {
         <div className='px-4 py-4'>
           <div className='font-bold text-lg mb-2'>Sweet Potato & Bean Casserole</div>
           <Link to='/recipe/1' className='bg-blue-500 hover:bg-blue-700 text-white py-0.5 px-2 rounded'>
-          Go To Recipe
+            Go To Recipe
           </Link>
         </div>
       </div>
@@ -52,8 +53,8 @@ const FirstPage = () => {
   </div>
 </div>
 
-      </div> 
+</div>     
   );
-}
+};
 
 export default FirstPage;
