@@ -49,7 +49,7 @@ function FirstPage()  {
   <div className="absolute top-[3.5rem] left-[21.5rem]">
     <p className='text-3xl md:text-8xl h-[5rem] font-devonshire text-secondary text-stroke text-gradient'> A</p>
   </div>
-  <div className='text-xs md:text-sm pt-[18rem] pr-[10rem] w-[24rem]'>Healthy meals are not just about eating right; they're about nurturing your body and soul. At Foodie Favourites, we strive to make healthy eating a joyful and accessible experience for all. We believe that food has the power to bring people together and create moments of happiness and connection.</div>
+  <div className='text-xs md:text-sm pt-[18rem] pr-[11rem] w-[24rem]'>Healthy meals are not just about eating right; they're about nurturing your body and soul. At Foodie Favorites, we strive to make healthy eating a joyful and accessible experience for all. We believe that food has the power to bring people together and create moments of happiness and connection.</div>
 
   <div className='absolute top-[10.5rem] right-[-0rem] w-[12rem] rounded overflow-hidden'>
     <img src={landingImgTwo} alt="Landing Page" className='w-52 h-50 object-cover rounded-tl-[22rem] rounded-bl-[22rem]' />

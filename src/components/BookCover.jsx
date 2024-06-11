@@ -4,7 +4,7 @@ import Page from './Page';
 import Cover from './bookPages/Cover/Cover';
 import coverVideo from "../assets/Videos/coverVideo.mp4";
 import RecipeListPage from './RecipeListPage';
-import RecipeDetailPage from './RecipeDetailPage';
+// import RecipeDetailPage from './RecipeDetailPage';
 import AboutPage from './bookPages/AboutPage';
 import FirstPage from './bookPages/ListPages/FirstPage';
 import SecondPage from './bookPages/ListPages/SecondPage';
@@ -15,7 +15,7 @@ function BookCover(props) {
       <div className="book-container">
         <HTMLFlipBook width={700} height={750} showCover="true">
           <Page number={1}>
-          <Cover coverVideo={coverVideo} title="Foodie Favourites" />
+          <Cover coverVideo={coverVideo} title="Foodie Favorites" />
           </Page>
           <Page number={2}>
            <FirstPage />
