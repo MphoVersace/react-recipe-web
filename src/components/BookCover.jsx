@@ -29,10 +29,10 @@ function BookCover(props) {
           <Page number={5}>
           <AboutPage />
           </Page>   
-          <Page number={6}>
+          {/* <Page number={6}>
           <RecipeDetailPage id={1} />
-          </Page>     
-          <Page number={7}>
+          </Page>      */}
+          {/* <Page number={7}>
           <RecipeDetailPage id={2} />
           </Page>  
           <Page number={8}>
@@ -46,7 +46,7 @@ function BookCover(props) {
           </Page>  
           <Page number={11}>
           <RecipeDetailPage id={6} />
-          </Page>
+          </Page> */}
         </HTMLFlipBook>
         </div>
     );

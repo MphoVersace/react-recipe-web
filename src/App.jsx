@@ -1,20 +1,21 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import RecipeDetailPage from './components/RecipeDetailPage';
-import ListPage from './components/bookPages/ListPages/FirstPage';
+import RecipeListPage from './components/RecipeListPage';
 import BookCover from './components/BookCover';
 import './App.css';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <Router>
           <Routes>
             <Route path="/" element={<BookCover />} />
-            <Route path="/recipe" element={<ListPage />} />
-            <Route path="/recipe/:id" element={<RecipeDetailPage />} />
+            <Route path="/RecipeListPage/*" element={<RecipeListPage />} />
+            <Route path="/recipedetailpage/:id" element={<RecipeDetailPage />} />
           </Routes>  
-    </BrowserRouter>
+    </Router>
   );
 };
+
 
 export default App;

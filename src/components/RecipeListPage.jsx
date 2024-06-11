@@ -44,7 +44,7 @@ function RecipeListPage() {
         {defaultRecipes.map((recipe) => (
           <div key={recipe.id} className="grid-item">
               <h2 className="recipe-title">
-                <Link to={`/recipe/${recipe.id}`} className="recipe-link">
+                <Link to={`/recipedetailpage/${recipe.id}`} className="recipe-link">
                   {recipe.title}
                 </Link>
               </h2>
