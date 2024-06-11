@@ -9,10 +9,13 @@
  }
  
  .recipe-list h1 {
-   font-size: 2em;
+   font-size: 3.8rem;
    margin-bottom: 0px;
-   color: #333;
+   font-family: Devonshire;
+   -webkit-text-stroke: 0.8px rgb(0, 0, 0); 
    background-color: #FFECCE;
+   text-align: center;
+   color: #ba181b;
  }
 
  .grid-container {
@@ -37,7 +40,7 @@
  }
  
  .grid-item p {
-   margin: 0;
+   margin-top: 10px;
    font-size: 1em;
    color: #555;
    background-color: #FFECCE;

@@ -1,84 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
 .recipe-detail-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5px; /* Added some padding for better spacing */
   font-style: italic;
-  background-color: beige;
+  background-color: #FFECCE;
 }
 
 .recipe-detail-page .recipe-content {
-  max-width: 800px;
-  margin: 20px; /* Added margin for spacing */
+  margin: 5px;
   text-align: left;
   font-style: italic;
-  background-color: beige;
-  padding: 20px; /* Added padding inside content */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #FFECCE;
+  padding: 15px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .recipe-detail-page .detailtitle{
-  color: red;
-  font-size: 1.5em; /* Adjusted font size */
-  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 2.5em; 
+  font-family: Devonshire;
+  -webkit-text-stroke: 0.8px #ba181b; 
 }
 
 .recipe-detail-page .recipe-content h2 {
-  margin: 0 0 0; /* Margin for spacing around the headings */
-  font-size: 1.5em; /* Adjusted font size */
-  font-weight: bold; /* Bold font */
-  color: #333; /* Darker text color for better readability */
-  border-bottom: 2px solid #ccc; /* Border for visual separation */
-  padding-bottom: 5px; /* Padding below the text */
-  font-style: normal; /* Remove italic style for headings */
+  margin: 0 0 0; 
+  font-size: 1.4em; 
+  font-weight: bold; 
+  color: #333;
+  border-bottom: 2px solid #5f3535; 
+  padding-bottom: 5px;
+  font-style: normal; 
+  text-align: center;
 }
 
 .ingredients-image-container {
   display: flex;
-  gap: 20px; /* Adds space between the columns */
+  gap: 5px; 
 }
 
 .recipe-image-container {
-  flex: 1; /* Flex-grow to fill the space */
+  flex: 1; 
 }
 
 .recipe-image {
     width: 200px; 
     height: auto;
     border-radius: 5px; 
-    margin-top: 10rem;
+    margin-top: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .ingredients-container {
-  flex: 2; /* Flex-grow to fill the space */
+  flex: 2; 
+  font-size: 10px;
 }
 
-  
   .recipe-content ul {
     list-style-type: none;
     padding: 0;
     margin: 20px 0;
     font-style: italic;
-    background-color: beige;
+    background-color: #FFECCE;
   }
   
   .recipe-content ul li {
     margin: 5px 0;
     font-style: italic;
-    background-color: beige;
+    background-color: #FFECCE;
   }
   
   .recipe-content p {
     margin: 20px 0;
     max-width: 800px;
     font-style: italic;
-    background-color: beige;
+    background-color: #FFECCE;
   }
   .body{
-    background-color: beige;
+    background-color: #FFECCE;
     }
 
 /* Style for the button container */
@@ -91,27 +95,18 @@
 
 .button {
   --bg: #000;
-  --hover-bg: #ff8c00;
+  --hover-bg: #ba181b;
   --hover-text: #000;
-  color: #fff;
+  color: #000000;
   cursor: pointer;
-  border: 1px solid var(--bg);
-  /* border-radius: 4px; */
-  padding: 0.5em 1em;
-  background: var(--bg);
-  transition: 0.2s;
-  /* max-width: 90%; */
-  
+  border: 2px solid #ba181b;
+  margin-top: 0.5rem;
+  padding: 0.3em 0.5em;
+  background: #FFECCE;
+  transition: 0.2s; 
 }
 
 .button:hover {
-  color: var(--hover-text);
-  transform: translate(-0.25rem, -0.25rem);
+  color: #fff;
   background: var(--hover-bg);
-  box-shadow: 0.25rem 0.25rem var(--bg);
-}
-
-.button:active {
-  transform: translate(0);
-  box-shadow: none;
 }

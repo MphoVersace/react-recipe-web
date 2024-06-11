@@ -8,32 +8,32 @@ function RecipeListPage() {
     {
       id: 1,
       title: "Cheesy Sweet Potato & Black Bean Casserole",
-      description: "A cozy, cheesy casserole is classic comfort food.",
+      description: "Indulge in this cozy, cheesy casserole that blends sweet potatoes and black beans into a deliciously hearty dish, perfect for any comfort food craving."
     },
     {
       id: 2,
       title: "Shrimp Pad Thai",
-      description: "This iconic Thai recipe features rice noodles stir-fried in a wok with a sauce that strikes the perfect balance of tangy, salty and sweet."
+      description: "Experience the authentic taste of Thailand with this iconic recipe, featuring rice noodles stir-fried with succulent shrimp in a tangy, salty, and sweet sauce."
     },
     {
       id: 3,
       title: "Cheesy Chicken & Broccoli Alfredo Skillet Casserole",
-      description: "This delightful one-skillet cheesy chicken Alfredo casserole combines penne pasta, tender broccoli and shredded rotisserie chicken smothered in a creamy sauce."
+      description: "Enjoy a delightful one-skillet meal where penne pasta, tender broccoli, and shredded rotisserie chicken come together in a rich and creamy Alfredo sauce."
     },
     {
       id: 4,
       title: "Mini chocolate cakes",
-      description: "With 3 layers of chocolate cake smothered in fluffy chocolate buttercream frosting, these are the perfect special occasion dessert."
+      description: "Treat yourself to these decadent mini chocolate cakes, each with three layers of rich chocolate cake and fluffy chocolate buttercream frosting, perfect for special occasions."
     },
     {
       id: 5,
       title: "Vanilla Cupcakes",
-      description: "Soft and fluffy, with a plush velvety crumb."
+      description: "Delight in these soft and fluffy vanilla cupcakes, featuring a plush velvety crumb and a classic sweet flavor that is sure to please everyone."
     },
     {
       id: 6,
       title: "Strawberry Ice-Cream",
-      description: "Soft and fluffy, with a plush velvety crumb."
+      description: "Savor the refreshing taste of homemade strawberry ice cream, with its creamy texture and fresh strawberry flavor, perfect for a hot day."
     },
   ]);
   
