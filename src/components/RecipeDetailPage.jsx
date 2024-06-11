@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./RecipeDetailPage.css";
 
 import img1 from '../assets/img1.png';
@@ -9,9 +9,9 @@ import img4 from '../assets/Mini-chocolate-cakes_2.webp';
 import img5 from '../assets/Vanilla-Cupcakes-with-Vanilla-Swiss-Meringue-2 (1).webp';
 import img6 from '../assets/Strawberry-Ice-Cream-No-Churn_3b.webp';
 
-function RecipeDetailPage() {
+function RecipeDetailPage({ id }) {
   
-    const { id } = useParams();
+    // const { id } = useParams();
     const [recipes] = useState([
 
     {
@@ -116,7 +116,7 @@ function RecipeDetailPage() {
     },
     ]);
 
-    const recipe = recipes.find((recipe) => recipe.id.toString() === id);
+    const recipe = recipes.find((recipe) => recipe.id === id);
 
     if (!recipe) {
       return <div>Recipe not found</div>;
@@ -124,36 +124,43 @@ function RecipeDetailPage() {
 
     return(
       <>
-      <div className="button-container">
-        <Link to="/">
-          <button className="button">Back</button>
-        </Link>
-      </div>
+
 
     <div className="recipe-detail-page">
     <h1 className="detailtitle">{recipe.title}</h1>
-    <div className="recipe-image-container">
+ 
+      <div className="recipe-content">
+      <h2>Description</h2>
+      <p>{recipe.description}</p>
+      <div className="ingredients-image-container">
+           <div className="recipe-image-container">
       <img
-        src={recipe.imageUrl}
+        src={recipe.image}
         alt={recipe.title}
         className="recipe-image"
       />
       </div>
-      <div className="recipe-content">
-      <h4>Description</h4>
-      <p>{recipe.description}</p>
-        <h2>Ingredients</h2>
+      <div className="ingredients-container">
+                <h2>Ingredients</h2>
         <ul>
           {recipe.ingredients.map((ingredient, index) => (
             <li key={index}>{ingredient}</li>
           ))}
         </ul>
+        </div>
+        </div>
+        
         <h2>Directions</h2>
         <ol>
           {recipe.directions.map((directions, index) => (
             <li key={index}>{directions}</li>
           ))}
         </ol>
+        <div className="button-container">
+        <Link to="/">
+          <button className="button">Back</button>
+        </Link>
+      </div>
         </div>
     </div>
     </>

@@ -58,29 +58,3 @@ function RecipeListPage() {
 
 export default RecipeListPage;
 
-
-
-// {recipe.id === 6 && (
-//   <div>
-//     <h2>Ingredients</h2>
-//     <ul>
-//       <li>2 cups fresh strawberries, hulled and sliced</li>
-//       <li>1/4 cup granulated sugar</li>
-//       <li>1 tablespoon lemon juice</li>
-//       <li>2 cups heavy cream</li>
-//       <li>1/4 cup powdered sugar</li>
-//       <li>1 teaspoon vanilla extract</li>
-//       <li>1 package (14 ounces) store-bought shortcakes</li>
-//       <li>Mint leaves for garnish (optional)</li>
-//     </ul>
-
-//     <h2>Directions</h2>
-//     <p>
-//       1. In a medium bowl, combine the sliced strawberries, granulated sugar, and lemon juice. Toss to coat and let the strawberries macerate for at least 30 minutes.<br />
-//       2. In a large bowl, whip the heavy cream with the powdered sugar and vanilla extract until soft peaks form.<br />
-//       3. To assemble, place a shortcake on a serving plate. Top with a generous spoonful of the macerated strawberries and a dollop of whipped cream.<br />
-//       4. Garnish with mint leaves if desired. Repeat with the remaining shortcakes.<br />
-//       5. Serve immediately and enjoy.<br />
-//     </p>
-//   </div>
-// )}
