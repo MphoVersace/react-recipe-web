@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import img4 from '../../../assets/Mini-chocolate-cakes_2.webp';
 import img5 from '../../../assets/Vanilla-Cupcakes-with-Vanilla-Swiss-Meringue-2 (1).webp';
 import img6 from '../../../assets/Strawberry-Ice-Cream-No-Churn_3b.webp';

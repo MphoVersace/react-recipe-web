@@ -55,3 +55,37 @@
   .body{
     background-color: beige;
     }
+
+/* Style for the button container */
+.button-container {
+  margin-left: 100px;
+}
+
+/* Style for the button */
+
+.button {
+  --bg: #000;
+  --hover-bg: #ff8c00;
+  --hover-text: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 0.8em 2em;
+  background: var(--bg);
+  transition: 0.2s;
+  max-width: 90%;
+  margin-bottom: 100px;
+}
+
+.button:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem, -0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.button:active {
+  transform: translate(0);
+  box-shadow: none;
+}
