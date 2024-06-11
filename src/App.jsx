@@ -1,39 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import RecipeListPages from './components/bookPages/RecipeListPages/FirstPage';
-import RecipeDetailPage from "./components/RecipeDetailPage";
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import RecipeDetailPage from './components/RecipeDetailPage';
+import RecipeListPage from './components/RecipeListPage';
 import BookCover from './components/BookCover';
-import BgTexture from "../src/assets/background4.jpeg";
-
-
-const BgTextureStyle = {
-  backgroundImage: `url(${BgTexture})`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-  minHeight: "100vh",
-  width: "100%",
-};
+import './App.css';
 
 const App = () => {
   return (
-    
     <Router>
-      
-    <div style={BgTextureStyle} className="w-full h-full flex justify-center items-center">
-      <div className="relative z-10 w-full h-full flex justify-center items-center">   
-           
-      <Routes>
-          <Route path="/" element={<RecipeListPages />} />
-          <Route path="/recipe/:id" element={<RecipeDetailPage />} />
-          </Routes>
-          <BookCover />  
-      </div>     
-    </div>
-    
+          <Routes>
+            <Route path="/" element={<BookCover />} />
+            <Route path="/RecipeListPage/*" element={<RecipeListPage />} />
+            <Route path="/recipedetailpage/:id" element={<RecipeDetailPage />} />
+          </Routes>  
     </Router>
   );
 };
+
 
 export default App;
